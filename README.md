@@ -1,18 +1,18 @@
-# Formulário Web
+# 📋 Formulário Web
 
 Projeto desenvolvido para uma atividade acadêmica de Front-end.
 
-## Tecnologias
+## 🔧 Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 
-## Sobre o Projeto
+## 💬 Sobre o Projeto
 
-O projeto consiste no desenvolvimento de um formulário web, utilizando HTML para a estruturação dos elementos e CSS para sua estilização.
+O projeto consiste no desenvolvimento de um formulário acadêmico web, utilizando HTML para a estruturação dos elementos e CSS para sua estilização.
 
-## Status
+## 👨‍💻 Status do Projeto
 
 ✅ Concluído
 
-O projeto está concluído, mas poderá receber melhorias e novos recursos futuramente.
+O projeto está concluído em relação a atividade proposta em sala de aula, mas está recebendo melhorias e novos recursos conforme o meu aprendizado.
