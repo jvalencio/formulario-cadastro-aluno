@@ -12,18 +12,16 @@ body {
     background-color: #0B1F3A;
 }
 
-header {
-    text-align: center;
-    color: lightblue;
-}
-
 header h1 {
-    font-size: 36px;
+    text-align: center;
+    font-size: 40px;
     margin-bottom: 5px;
+    color: lightblue;
 }
 
 header p {
     margin-top: 0;
+    color: white;
 }
 
 form {
@@ -51,12 +49,18 @@ legend {
     margin: 8px;
 }
 
-input,
-select {
+.campo input,
+.campo select {
     width: 100%;
     padding: 8px;
+    margin-top: 3px;
     border: 1px solid grey;
     border-radius: 10px;
+}
+
+.campo input:user-invalid,
+.campo select:user-invalid {
+    border: 2px solid red;
 }
 
 button {
@@ -69,4 +73,10 @@ button {
     font-weight: bold;
     color: #081A2E;
     background-color: lightblue;
+}
+
+footer {
+    font-size: 12px;
+    margin-top: 30px;
+    color: grey;
 }
