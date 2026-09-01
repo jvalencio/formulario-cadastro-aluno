@@ -19,7 +19,7 @@
 
                 <div class="campo">
                     <label for="nome">Nome Completo</label>
-                    <input type="text" id="nome" name="nome" required>
+                    <input type="text" id="nome" name="nome" maxlength="80" required>
                 </div>
 
                 <div class="campo">
@@ -79,7 +79,7 @@
                 <div class="campo">
                     <label for="estado">Estado</label>
                     <select id="estado" name="estado" required>
-                        <option value="">Selecione</option>
+                        <option value="">-- Selecione --</option>
                         <option value="ac">Acre</option>
                         <option value="al">Alagoas</option>
                         <option value="ap">Amapá</option>
@@ -116,13 +116,13 @@
 
                 <div class="campo">
                     <label for="ra">RA</label>
-                    <input type="text" id="ra" name="ra" required>
+                    <input type="text" id="ra" name="ra" maxlength="7" required>
                 </div>
 
                 <div class="campo">
                     <label for="curso">Curso</label>
                     <select id="curso" name="curso" required>
-                        <option value="">Selecione</option>
+                        <option value="">-- Selecione --</option>
                         <option value="ads">Análise e Desenvolvimento de Sistemas</option>
                         <option value="cc">Ciência da Computação</option>
                         <optino value="cd">Ciência de Dados</optino>
@@ -140,13 +140,13 @@
 
                 <div class="campo">
                     <label for="semestre">Semestre</label>
-                    <input type="text" id="semestre" name="semestre" placeholder="Ex.: 4" maxlength="2" required>
+                    <input type="text" id="semestre" name="semestre" placeholder="Ex.: 4" maxlength="1" required>
                 </div>
 
                 <div class="campo">
                     <label for="turno">Turno</label>
                     <select id="turno" name="turno" required>
-                        <option value="">Selecione</option>
+                        <option value="">-- Selecione --</option>
                         <option value="int">Integral</option>
                         <option value="mat">Matutino</option>
                         <option value="ves">Vespertino</option>
@@ -158,5 +158,7 @@
             <button type="submit">Enviar Dados</button>
         </form>
     </main>
+
+    <footer>© 2026 Formulário Acadêmico - João Valencio</footer>
 </body>
 </html>
